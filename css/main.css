@@ -12,7 +12,7 @@ a {
     color: black;
 }
 .container{
-    width: 1145px;
+    width: 1280px;
     margin: 0 auto;
 }
 
@@ -45,24 +45,31 @@ HEADER
 ************************/
 #logo {
     float: left;
+    line-height: 90px;
+    margin-left: 60px;
 }
-
 nav{
     float: right;
 }
-
 nav a {
     padding: 0 15px;
 }
-
+nav a:hover {
+    color: #1ED3A6;
+    font-size: 1.2em;
+}
+nav ul {
+    margin-right: 60px;
+}
 nav li{
     float: left;
-    line-height: 90px;
+    /*line-height: 90px;*/
+    padding: 40px 0;
 }
-
 nav .active a {
     color: #1ED3A6;
 }
+
 
 /***********************
 TOP
@@ -79,6 +86,10 @@ TOP
     color: white;
 }
 
+#top a:hover {
+    color: black;
+}
+
 #top .wrapper{
     padding: 100px 0;
 }
@@ -93,17 +104,18 @@ ABOUT
 .about{
     margin:160px 0;
 }
+
 .us {
-    margin: 0 10px;
+    margin-left: 60px;
     float: left;
     width: 45%
 }
 
 .goalpic {
-    margin: 0 10px;
+    margin-right: 60px;
     float: right;
     width: 45%;
-    padding-right: 30px;
+
 }
 
 .about h3{
@@ -115,8 +127,13 @@ ABOUT
 /***********************
 VIDEO
 ************************/
+.video{
+    text-align: center;
+}
+
 video {
-    height: 600px;
+    width: 100%;
+    height: auto;
 }
 
 /***********************
@@ -127,14 +144,14 @@ PROUD
     text-align: center;
 }
 
-.human {
-    float: left;
-    width: 361px;
-    margin-right: 30px;
+#proud img {
+    width: 30%;
+    margin:0 auto;
     margin-bottom: 30px;
-    padding: 20px;
-    text-align: center;
-
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /***********************
@@ -196,6 +213,10 @@ footer ul {
 footer li{
     float: left;
     padding: 5px;
+}
+
+footer a:hover {
+    color: #1ED3A6;
 }
 
 
